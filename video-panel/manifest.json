@@ -1,0 +1,22 @@
+{
+  "name": "Panel de Video (YouTube)",
+  "organization": "Tu Equipo",
+  "description": "Muestra el clip filtrado (YouTube) desde el segundo correcto.",
+  "resources": { "js": ["index.js"] },
+  "data": {
+    "fields": [
+      { "id": "video_url", "name": "URL_Embed", "type": "TEXT", "concept": "DIMENSION" },
+      { "id": "titulo", "name": "Observacion", "type": "TEXT", "concept": "DIMENSION", "isOptional": true }
+    ],
+    "dataReductionAlgorithm": "FIRST"
+  },
+  "style": [
+    { "id": "showTitle", "label": "Mostrar título", "type": "CHECKBOX", "defaultValue": true }
+  ],
+  "supportsInteractivity": true,
+  "allowedDomains": [
+    "https://www.youtube.com",
+    "https://youtube.com",
+    "https://www.youtube-nocookie.com"
+  ]
+}
