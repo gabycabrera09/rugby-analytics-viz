@@ -2,6 +2,10 @@
   "name": "Panel de Video (YouTube)",
   "organization": "Tu Equipo",
   "description": "Muestra el clip filtrado (YouTube) desde el segundo correcto.",
+  "logoUrl": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/128/emoji_u1f3a5.png",
+  "privacyPolicyUrl": "https://example.com/privacy",
+  "termsOfServiceUrl": "https://example.com/tos",
+  "supportUrl": "https://example.com/support",
   "resources": {
     "js": ["index.js"]
   },
