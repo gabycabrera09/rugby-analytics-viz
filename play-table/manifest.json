@@ -1,0 +1,19 @@
+{
+  "name": "Tabla de Jugadas (clic → filtra)",
+  "organization": "Tu Equipo",
+  "description": "Lista jugadas y, al hacer clic, aplica un filtro por Key.",
+  "resources": { "js": ["index.js"] },
+  "data": {
+    "fields": [
+      { "id": "tipo", "name": "Tipo", "type": "TEXT", "concept": "DIMENSION" },
+      { "id": "rival", "name": "Rival", "type": "TEXT", "concept": "DIMENSION" },
+      { "id": "resultado", "name": "Resultado", "type": "TEXT", "concept": "DIMENSION" },
+      { "id": "obs", "name": "Observacion", "type": "TEXT", "concept": "DIMENSION" },
+      { "id": "partido", "name": "Partido", "type": "TEXT", "concept": "DIMENSION" },
+      { "id": "key", "name": "Key", "type": "TEXT", "concept": "DIMENSION" },
+      { "id": "video_url", "name": "URL_Embed", "type": "TEXT", "concept": "DIMENSION", "isOptional": true }
+    ],
+    "dataReductionAlgorithm": "NONE"
+  },
+  "supportsInteractivity": true
+}
